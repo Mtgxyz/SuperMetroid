@@ -1,0 +1,5 @@
+.BANK $15 SLOT 0
+.ORG $00D8
+.SECTION "GFX"
+.incbin "orig.smc" SKIP 688128 READ 32768
+.ENDS
