@@ -126,9 +126,9 @@ loop:
 	stx $3011
 	lda #$15
 	sta $3013
-	ldx #$0100
+	ldx #$0000
 	stx $3014
-	lda #$00
+	lda #$60
 	sta $3016
 	lda #$02
 	sta $3010

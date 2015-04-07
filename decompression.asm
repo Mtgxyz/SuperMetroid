@@ -43,6 +43,7 @@ DC_NoOF1:
 	sta $19
 	cmp #$FF ;End of File?
 	bne DC_Cont
+        stz $00
 	lda #$01
 	sta $2209
 	plb
